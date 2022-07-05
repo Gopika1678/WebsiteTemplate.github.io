@@ -1,0 +1,197 @@
+.header
+{
+    background-color: navy;
+    height:80px;
+    
+}
+.logo h1
+{
+    color:white;
+    font-size: 30px;
+    margin-top:20px;
+    text-transform: uppercase;
+
+}
+.logo .school1 
+{
+    color:coral;
+    display: inline;
+}
+.logo1 .school2
+{
+    color:white;
+    display:inline;
+  
+    text-align: left;
+}
+.nav-item a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:azure;
+    text-align: right;
+    float:right;
+    display: block;
+    margin-top:10px;
+}
+.nav-item a:hover,a:focus {
+    color:orange;
+    
+}
+.nav-item1 a
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    color:azure;
+    padding-top: 10px;
+    margin-top: 10px;;
+}
+.banner
+{
+    position:relative;
+    max-height: 100%;
+    overflow: hidden;
+    margin-bottom: -7px;
+}
+#bgheader
+{
+    max-width: 100%;
+    max-height: 100vh;
+    min-width: 100%;
+    min-height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+#bgheader::-webkit-media-controls {
+    display: none !important;
+}
+.videolay
+{
+    position: absolute;
+    background-color: rgba(22,34,57,0.85);
+    top:0;
+    left:0;
+    bottom:7px;
+    width:100%;
+}
+.banner .caption
+{
+    position: absolute;
+    text-align: center;
+    left:50%;
+    width:80%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+.banner .caption h6{
+    text-transform: uppercase;
+    color:#fff;
+    font-size:18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.banner .caption h2{
+    text-transform: uppercase;
+    color:white;
+    font-size:64px;
+    font-weight: 800px;
+    letter-spacing: 1px;
+    margin-top:60px;
+    margin-bottom: 80px;
+
+}
+.banner .caption h2 em{
+    font-style: normal;
+    font-weight: 900px;
+    color:#f5a425;
+}
+.banner .caption p
+{
+  
+    color:white;
+    text-transform: uppercase;
+    padding-top: 10px;
+    margin-bottom:100px;
+}
+
+    
+    
+    
+
+.img_button
+{
+    opacity: 0.6;
+    width:150px;
+    height:70px;
+    margin-right:100px;
+    align-items: center;
+    
+}
+.contact
+{
+    text-align: center;
+    text-transform: uppercase;
+    color:black;
+    margin-top: 20px;
+}
+#name
+{
+    width:500px;
+    height:80px;
+    margin-top:30px;
+    margin-left:40px;
+}
+#email
+{
+    width:500px;
+    height:80px;
+    margin-top:30px;
+    margin-left: 40px;
+}
+#message
+{
+    width:500px;
+    margin-top: 30px;
+    margin-left:40px;
+}
+.img_box 
+{
+   max-width: 100%;
+   max-height:100vh;
+   min-width: 100%;
+   min-height:100vh;
+    object-fit: cover;
+    position:relative;
+    z-index:-1;
+    
+}
+.img_box::-webkit-media-controls {
+    display: none !important;
+}
+.contact-us
+{
+    background-color: aquamarine;
+    width:600px;
+    height:500px;
+    margin-top: 30px;
+}
+.contact-us h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size:24px;
+
+}
+.contact-us p{
+    font-size:16px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.nav-item1 li .dropdown-menu
+{
+    position: absolute;
+    width:160px;
+    background-color: #18233a;
+    opacity:0;
+    visibility: hidden;
+    transition: all 0.5s;
+}
